@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Elias Viana — Web Developer</title>
+<meta name="description" content="Self-taught developer building websites, online stores, apps, bots and scripts (JavaScript, Node.js, Python, Lua, SQL).">
+<style>
+  :root{--bg:#0f1115;--card:#171a21;--line:#262b36;--tx:#eceef2;--mut:#9aa3b2;--ac:#6ee7b7}
+  *{box-sizing:border-box;margin:0}
+  body{background:var(--bg);color:var(--tx);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+  header{padding:96px 0 56px}
+  .tag{color:var(--ac);font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+  h1{font-size:clamp(2.4rem,6vw,4.2rem);line-height:1.05;margin:14px 0 18px;letter-spacing:-.02em}
+  header p{max-width:620px;color:var(--mut);font-size:1.1rem}
+  .skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+  .skills span{border:1px solid var(--line);background:var(--card);padding:5px 13px;border-radius:99px;font-size:.85rem;color:var(--mut)}
+  h2{font-size:1.5rem;margin:8px 0 24px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:22px;padding-bottom:80px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s}
+  .card:hover{transform:translateY(-4px);border-color:var(--ac)}
+  .shot{aspect-ratio:16/10;background:#000 center top/cover no-repeat;position:relative;overflow:hidden}
+  .shot.brand{display:grid;place-items:center;font-weight:800;font-size:2rem;letter-spacing:.02em;text-align:center;padding:16px}
+  .body{padding:18px 20px 22px;display:flex;flex-direction:column;gap:6px;flex:1}
+  .kind{color:var(--ac);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;font-weight:600}
+  .body h3{font-size:1.2rem}
+  .body p{color:var(--mut);font-size:.95rem;flex:1}
+  .go{margin-top:10px;font-weight:600;font-size:.92rem}
+  .go::after{content:" \2192"}
+  footer{border-top:1px solid var(--line);padding:32px 0 48px;color:var(--mut);font-size:.9rem}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <div class="tag">Web &amp; Software Developer</div>
+  <h1>Elias Viana</h1>
+  <p>Self-taught developer building websites, online stores, apps, bots and scripts. Below are some of the projects I have built and published.</p>
+  <div class="skills">
+    <span>JavaScript</span><span>Node.js</span><span>Python</span><span>Lua</span><span>HTML / CSS</span><span>SQL</span><span>Debugging</span>
+  </div>
+</header>
+
+<main class="wrap">
+  <h2>Selected projects</h2>
+  <div class="grid">
+
+    <a class="card" href="https://doceflor.13-140-235-43.sslip.io" target="_blank" rel="noopener">
+      <div class="shot" style="background-image:url(doceflor.png)"></div>
+      <div class="body"><div class="kind">Bakery · Online menu</div><h3>Doceflor</h3>
+      <p>Website for a confectionery: product showcase, menu and direct ordering.</p><span class="go">View live site</span></div>
+    </a>
+
+    <a class="card" href="https://gostosuras.13-140-235-43.sslip.io" target="_blank" rel="noopener">
+      <div class="shot brand" style="background:#b5123f;color:#f7ecdc">As Gostosuras<br>da Lene</div>
+      <div class="body"><div class="kind">Sweets &amp; snacks · Orders</div><h3>As Gostosuras da Lene</h3>
+      <p>Website with 3D hero, menu, order flow, gallery and WhatsApp contact.</p><span class="go">View live site</span></div>
+    </a>
+
+    <a class="card" href="https://braseiro.13-140-235-43.sslip.io" target="_blank" rel="noopener">
+      <div class="shot brand" style="background:radial-gradient(circle at 50% 120%,#ff5a1f55,#0c0a09 65%);color:#fff">BRASEIRO<br><small style="font-weight:500;font-size:.9rem;opacity:.7">Burger &amp; Prensa</small></div>
+      <div class="body"><div class="kind">Burger restaurant</div><h3>Braseiro</h3>
+      <p>Burger restaurant website with interactive 3D elements, menu and delivery contact.</p><span class="go">View live site</span></div>
+    </a>
+
+    <a class="card" href="https://bella-rose.13-140-235-43.sslip.io" target="_blank" rel="noopener">
+      <div class="shot" style="background-image:url(bella.png)"></div>
+      <div class="body"><div class="kind">Fashion · Online store (concept)</div><h3>Bella Rosé</h3>
+      <p>Online store concept for a women's fashion brand: catalog, product pages and cart.</p><span class="go">View live site</span></div>
+    </a>
+
+    <a class="card" href="https://relojoaria-dm.13-140-235-43.sslip.io" target="_blank" rel="noopener">
+      <div class="shot" style="background-image:url(relojoaria.png)"></div>
+      <div class="body"><div class="kind">Watch repair · Business site</div><h3>Relojoaria DM</h3>
+      <p>Business website for a watchmaker: services, products and contact.</p><span class="go">View live site</span></div>
+    </a>
+
+    <a class="card" href="https://kg-eventos.13-140-235-43.sslip.io" target="_blank" rel="noopener">
+      <div class="shot" style="background-image:url(kg.png)"></div>
+      <div class="body"><div class="kind">Events &amp; parties</div><h3>KG Eventos</h3>
+      <p>Cinematic website for an events company, with real photography and a quote request flow.</p><span class="go">View live site</span></div>
+    </a>
+
+  </div>
+</main>
+
+<footer><div class="wrap">© Elias Viana · Open to remote coding, debugging and web development work.</div></footer>
+</body>
+</html>
+
